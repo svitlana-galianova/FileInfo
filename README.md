@@ -13,3 +13,4 @@ Library for Obtaining File Info Written in Go(Golang)
 ### Notes
 - Please add every new function to the `fileInfo` folder using meaningfull name
 - **Every exported function's name must start with uppercase letter**
+- All the functions should be tested and produce output in main.go with a meaningful message
