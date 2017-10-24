@@ -33,5 +33,7 @@ func main() {
 	fmt.Println("File path: path-to-file-goes-here")
 	fmt.Println("File Name: "+fileInfo.GetName(path))
 	fmt.Printf("SHA1: %x", fileInfo.GetSHA1(path))
-	
+	fmt.Println()
+	fmt.Printf("MD5: %x", fileInfo.GetMD5(path))
+	fmt.Println()
 }
