@@ -29,11 +29,11 @@ func main() {
 	
 	fmt.Println("File Information")
 	fmt.Println("===========================================")
-	fmt.Println("Current working directory: wd-goes-here")
+	fmt.Println("Current working directory: "+wd)
 	fmt.Println("File path: path-to-file-goes-here")
+	fmt.Println("File Path: "+fileInfo.GetPath(path))
 	fmt.Println("File Name: "+fileInfo.GetName(path))
+	fmt.Printf("File size: %d bytes\n", fileInfo.GetSize(path))
 	fmt.Printf("SHA1: %x", fileInfo.GetSHA1(path))
-	fmt.Println()
 	fmt.Printf("MD5: %x", fileInfo.GetMD5(path))
-	fmt.Println()
 }
