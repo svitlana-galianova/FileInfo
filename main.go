@@ -29,7 +29,7 @@ func main() {
 	
 	fmt.Println("File Information")
 	fmt.Println("===========================================")
-	fmt.Println("Current working directory: wd-goes-here")
+	fmt.Println("Current working directory: "+wd)
 	fmt.Println("File path: path-to-file-goes-here")
 	fmt.Println("File Path: "+fileInfo.GetPath(path))
 	fmt.Println("File Name: "+fileInfo.GetName(path))
