@@ -35,5 +35,5 @@ func main() {
 	fmt.Println("File Name: "+fileInfo.GetName(path))
 	fmt.Printf("File size: %d bytes\n", fileInfo.GetSize(path))
 	fmt.Printf("SHA1: %x", fileInfo.GetSHA1(path))
-	
+	fmt.Printf("MD5: %x", fileInfo.GetMD5(path))
 }
