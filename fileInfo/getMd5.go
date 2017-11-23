@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 )
-
+// returns MD5
 func GetMD5(pathToFile string) []byte {
 	f, err := os.Open(pathToFile)
 	if err != nil {

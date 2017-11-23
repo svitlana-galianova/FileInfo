@@ -5,6 +5,7 @@ import (
 	"os"
 )
 
+//returns Name 
 func GetName(pathToFile string) string {
 	file, err := os.Stat(pathToFile)
 

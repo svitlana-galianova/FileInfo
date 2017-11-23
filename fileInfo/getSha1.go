@@ -7,6 +7,7 @@ import (
 	"os"
 )
 
+//returns SHA1
 func GetSHA1(pathToFile string) []byte {
 	f, err := os.Open(pathToFile)
 	if err != nil {
