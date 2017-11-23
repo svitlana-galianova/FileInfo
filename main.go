@@ -9,7 +9,7 @@ import (
 	// note: package should be named <project-name>/fileInfo
 	// if your local project's name is not "FileInfo"
 	// please change the name of the package
-	"FileInfo/fileInfo"
+	"github.com/svitlana-galianova/FileInfo/fileInfo"
 )
 func main() {
 	
@@ -23,7 +23,7 @@ func main() {
 	//2. get bytes
 	var buffer bytes.Buffer
 	buffer.WriteString(wd)
-	buffer.WriteString("\\README.md")
+	buffer.WriteString("\\LICENSE")
 	//3. windows file seperator replace
 	path := strings.Replace(buffer.String(), "\\", "/", -1)
 	
@@ -34,6 +34,6 @@ func main() {
 	fmt.Println("File Path: "+fileInfo.GetPath(path))
 	fmt.Println("File Name: "+fileInfo.GetName(path))
 	fmt.Printf("File size: %d bytes\n", fileInfo.GetSize(path))
-	fmt.Printf("SHA1: %x", fileInfo.GetSHA1(path))
-	fmt.Printf("MD5: %x", fileInfo.GetMD5(path))
+	fmt.Printf("SHA1: %x\n", fileInfo.GetSHA1(path))
+	fmt.Printf("MD5: %x\n", fileInfo.GetMD5(path))
 }
