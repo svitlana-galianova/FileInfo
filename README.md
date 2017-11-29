@@ -1,4 +1,6 @@
-# FileInfo
+# FileInfo 
+[![Build Status](https://travis-ci.org/svitlana-galianova/FileInfo.svg?branch=master)](https://travis-ci.org/svitlana-galianova/FileInfo.svg?branch=master)
+
 
 ### Summary
 Library for Obtaining File Info Written in Go(Golang)
