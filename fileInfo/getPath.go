@@ -5,6 +5,7 @@ import (
 	"path/filepath"
 )
 
+//returns path
 func GetPath(pathToFile string) string {
 	absPath, err := filepath.Abs(pathToFile)
 	if err != nil {

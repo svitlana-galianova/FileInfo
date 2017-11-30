@@ -9,6 +9,7 @@ import (
 	// note: package should be named <project-name>/fileInfo
 	// if your local project's name is not "FileInfo"
 	// please change the name of the package
+	//"FileInfo/fileInfo"
 	"github.com/svitlana-galianova/FileInfo/fileInfo"
 )
 func main() {
@@ -30,7 +31,6 @@ func main() {
 	fmt.Println("File Information")
 	fmt.Println("===========================================")
 	fmt.Println("Current working directory: "+wd)
-	fmt.Println("File path: path-to-file-goes-here")
 	fmt.Println("File Path: "+fileInfo.GetPath(path))
 	fmt.Println("File Name: "+fileInfo.GetName(path))
 	fmt.Printf("File size: %d bytes\n", fileInfo.GetSize(path))

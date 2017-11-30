@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 )
-//returns Size
+//returns Size of a file
 func GetSize(pathToFile string) int64 {
 	file, err := os.Stat(pathToFile)
 
