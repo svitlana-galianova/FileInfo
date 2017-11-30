@@ -3,7 +3,14 @@
 
 
 ### Summary
-Library for Obtaining File Info Written in Go(Golang)
+Library for Obtaining File Info Written in Go(Golang)    
+
+This library has a set of functions that generate/display the following information:   
+- File Path (fileInfo/getPath.go)
+- File Name (fileInfo/getName.go)
+- File size (fileInfo/getSize.go)
+- SHA1 (fileInfo/getSha1.go)
+- MD5 (fileInfo/getMd5.go)
 
 ### Set up
 1. get [golang](https://golang.org/dl/)
